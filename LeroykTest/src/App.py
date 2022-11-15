@@ -2,7 +2,8 @@ from one import one
 from two import two
 
 print("hello setuptools")
-O = one()
+O = one.One()
 O.run()
-T = two()
+
+T = two.Two()
 T.run()
