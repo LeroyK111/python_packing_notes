@@ -438,3 +438,20 @@ password = <private-repository password>
 - [py2app](https://py2app.readthedocs.io/en/latest/) - 仅限 Mac
 - [osnap](https://github.com/jamesabel/osnap) - Windows 和 Mac
 - [pynsist](https://pypi.org/project/pynsist/) - 仅限 Windows
+
+## 常见构筑错误
+
+### C++扩展构筑异常
+
+[解决方案](https://stackoverflow.com/questions/64261546/how-to-solve-error-microsoft-visual-c-14-0-or-greater-is-required-when-inst)
+
+![image-20230115033612821](readme.assets/image-20230115033612821.png)
+
+直接下载对应构筑的工具，然后安装即可。
+
+![image-20230115035632604](readme.assets/image-20230115035632604.png)
+
+### 重坑
+
+<a href='https://tseing.github.io/sui-sui-nian/2022-08-11-prettymaps-install.html'>GDAL存在的重坑，Linux系统更适合开发</a>
+
