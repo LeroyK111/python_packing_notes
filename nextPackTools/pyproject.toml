@@ -1,0 +1,19 @@
+
+[project]
+name = "pdmLearning"
+version = "0.0.1"
+description = "this project is for learning"
+authors = [
+    {name = "LeroyK", email = "bridieiybnf@gmail.com"},
+]
+dependencies = [
+    "flask>=2.3.2",
+    "flask-login>=0.6.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
