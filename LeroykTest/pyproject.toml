@@ -41,7 +41,7 @@ authors = [
   {name = "LeroyK"}
 ]
 # 维护人员
-# maintainers = [
+maintainers = [
   {name = "Brett Cannon", email = "brett@python.org"}
 ]
 
