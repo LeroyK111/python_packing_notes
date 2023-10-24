@@ -6,5 +6,5 @@ __doc__ = "注释"
 __all__ = ["App"]
 
 
-def function():
+def test():
     print("Hello LeroykTest")
