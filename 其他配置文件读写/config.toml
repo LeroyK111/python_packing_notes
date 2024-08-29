@@ -1,0 +1,12 @@
+[mysql]
+host = "127.0.0.1"
+user = "root"
+port = 3306
+database = "test"
+
+[mysql.parameters]
+pool_size = 5
+charset = "utf8"
+
+[mysql.fields]
+pandas_cols = ["id", "name", "age", "date"]
