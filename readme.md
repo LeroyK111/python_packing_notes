@@ -10,6 +10,13 @@
 
 distutils：https://docs.python.org/zh-cn/3/library/distutils.html
 
+python3.13版本则增加了 Py_mod_gil 槽位被用来指明一个扩展模块支持在禁用 GIL 的情况下运行。
+给了一个tag, 标注是否可以在无GIL锁的情况下执行 https://docs.python.org/zh-cn/3/c-api/module.html#c.Py_mod_gil
+
+
+
+
+
 ```
 打包工具推荐
 1.使用setuptools定义项目。
